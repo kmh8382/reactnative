@@ -4,6 +4,10 @@ import MyTextInput from './src/01_TextInput';
 import CustomCheckbox from './src/02_Checkbox';
 import MyKeyboardAvoidingView from './src/03_KeyboardAvoidingView';
 import RadioButtonLibrary from './src/04_RadioButtonLibrary';
+import MyPicker from './src/05_Picker';
+import MyButton from './src/06_Button';
+import MySwitch from './src/07_Switch';
+import Form from './src/08_Form';
 
 export default function App() {
   return (
@@ -12,7 +16,11 @@ export default function App() {
       {/* <MyTextInput/> */}
       {/* <CustomCheckbox/> */}
       {/* <MyKeyboardAvoidingView/> */}
-      <RadioButtonLibrary/>
+      {/* <RadioButtonLibrary/> */}
+      {/* <MyPicker/> */}
+      {/* <MyButton/> */}
+      {/* <MySwitch/> */}
+      <Form/>
     </View>
   );
 }
